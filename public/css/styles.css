@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*HEADER*/
+
+.navbar {
+        display: none;
+    }
+
+.truck-icon {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    color: #39b54a;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+
+    transition: 1s;
+}
+
+/*PRODUCT INFO*/
+.body-text-size {
+    font-size: 12px;
+}
+
+.nav-link-list {
+    list-style-type: none;
+}
+
+.center {
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .article-margin {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .navbar {
+        display: initial;
+    }
+    #menu-button {
+        display: none;
+    }
+    .article-margin.article-background {
+        width: 48%;
+    }
+    .header-links {
+        padding-bottom: 20px;
+    }
+    #header-logo-searchbar-cuotas img {
+        width: 30%;
+    }
+    #header-searchbar {
+        width: 30%;
+    }
+    #compra-en-cuotas {
+        width: 30%;
+        align-content: center;
+    }
+    .header-links {
+        padding-top: 20px;
+    }
+    .register-form {
+        height: 50vh;
+    }
+    .product-section article .descripcion {
+        color: #666;
+    }
+}
+
+@media (min-width: 1200px) {
+    .article-margin.article-background {
+        width: 23%;
+    }
+    .header-links-1 {
+        width: 30%;
+    }
+    .header-links-2 {
+        width: 30%;
+    }
+    .register-form {
+        height: 65vh;
+    }
+    .product-section article .descripcion {
+        color: white;
+    }
+    .product-section article:hover .descripcion {
+        color: #666;
+    }
+    .product-section article:hover .truck-icon {
+        transform: rotate(360deg);
+    }
+    .article-margin {
+        box-shadow: none;
+    }
+    .product-section article:hover.article-margin {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .footer-banners article i:hover {
+        color: #666;
+    }
+}
+

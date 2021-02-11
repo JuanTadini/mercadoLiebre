@@ -1,0 +1,55 @@
+.main-format {
+    width: 90%;
+    padding-top: 10px;
+    margin-right: auto;
+    padding-bottom: 10px;
+    margin-left: auto;
+}
+
+.titulares {
+    font-size: 24px;
+    color: #666;
+}
+
+.gray-background {
+    background-color: #ebebeb;
+}
+
+#login-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 20vh;
+}
+
+#register-box {
+    align-items: center;
+    width: 40%;
+}
+
+.register-form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 45vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+form.register-form label.column input {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/*LOGIN*/
+
+form#login-box button:hover {
+    background-color: #0022AA;
+}

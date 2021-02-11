@@ -1,0 +1,33 @@
+.footer-format {
+    width: 90%;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+}
+
+.sized-icon {
+    font-size: 2em;
+    color: #073dae;
+    margin-bottom: 10px;
+}
+
+.descripciones {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer-banners {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-banners article {
+    width: 33%;
+}
+
+.copyright {
+    text-align: left;
+}
