@@ -1,0 +1,11 @@
+.img-center {
+    align-items:center;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.img-resize {
+    width: 100%;
+}

@@ -1,0 +1,79 @@
+.header-format {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+.header-background {
+    background-color: #EAC926;
+}
+
+#header-logo-searchbar-cuotas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#header-logo-searchbar-cuotas img {
+    width: 40%;
+}
+
+#header-searchbar {
+    display: flex;
+    width: 40%;
+}
+
+#search-textbox {
+    width: 80%;
+    border-radius: 12px;
+}
+
+#search-button {
+    flex-grow: 1;
+    border-radius: 7px;
+}
+
+#menu-button {
+    background-color: #073dae;
+    color: white;
+    border-radius: 15%;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+}
+
+#compra-en-cuotas {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.desestilizar {
+    text-decoration: none;
+    color: black;
+}
+
+header .nav-link-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.header-links {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-links-1 {
+    width: 40%;
+}
+
+.header-links-div {
+    flex-grow: 1;
+}
+
+.header-links-2 {
+    width: 40%;
+}
